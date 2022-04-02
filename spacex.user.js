@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place SpaceX Template
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.4
 // @description  Template for spacex graphic
 // @author       /u/fiercedude
 // @match        https://hot-potato.reddit.com/embed*
