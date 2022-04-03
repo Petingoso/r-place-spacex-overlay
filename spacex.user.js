@@ -25,7 +25,7 @@ function makeOverlay(id, url, width, height, x, y) {
 
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-        makeOverlay("Logo",     "https://github.com/Petingoso/r-techplace/blob/main/pixil-frame-0.png", 1140, 1700, 1159, 1675)
+        makeOverlay("Logo",     "https://cdn.discordapp.com/attachments/749316099828351067/960268159988957244/unknown.png?size=4096", 1140, 1700, 1159, 1675)
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByClassName("bottom-controls")[0].appendChild(
         (function () {
             const slider = document.createElement("div");
