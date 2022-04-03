@@ -25,7 +25,7 @@ function makeOverlay(id, url, width, height, x, y) {
 
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-        makeOverlay("Logo",     "https://raw.githubusercontent.com/onyx-4977/onyx-4977/main/SilksongTemplate.png", 525, 390, 225, 343)
+        makeOverlay("Logo",     "https://github.com/Petingoso/r-techplace/blob/main/pixil-frame-0.png", 525, 390, 225, 343)
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByClassName("bottom-controls")[0].appendChild(
         (function () {
             const slider = document.createElement("div");
